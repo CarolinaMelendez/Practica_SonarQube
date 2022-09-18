@@ -1,0 +1,55 @@
+2022.09.18 09:28:10 INFO  es[][o.e.n.Node] version[7.17.1], pid[3124], build[unknown/unknown/e5acb99f822233d62d6444ce45a4543dc1c8059a/2022-02-23T22:20:54.153567231Z], OS[Windows 8.1/6.3/amd64], JVM[Eclipse Adoptium/OpenJDK 64-Bit Server VM/11.0.13/11.0.13+8]
+2022.09.18 09:28:10 INFO  es[][o.e.n.Node] JVM home [C:\Program Files\Eclipse Adoptium\jdk-11.0.13.8-hotspot]
+2022.09.18 09:28:10 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseG1GC, -Djava.io.tmpdir=D:\CARITO ---Trabajos\6 Gestión de calidad de Sistemas\sonarqube-9.4.0.54424\temp, -XX:ErrorFile=../logs/es_hs_err_pid%p.log, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djna.tmpdir=D:\CARITO ---Trabajos\6 Gestión de calidad de Sistemas\sonarqube-9.4.0.54424\temp, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dio.netty.allocator.numDirectArenas=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j2.formatMsgNoLookups=true, -Djava.locale.providers=COMPAT, -Dcom.redhat.fips=false, -Xmx512m, -Xms512m, -XX:MaxDirectMemorySize=256m, -XX:+HeapDumpOnOutOfMemoryError, -Delasticsearch, -Des.path.home=D:\CARITO ---Trabajos\6 Gestión de calidad de Sistemas\sonarqube-9.4.0.54424\elasticsearch, -Des.path.conf=D:\CARITO ---Trabajos\6 Gestión de calidad de Sistemas\sonarqube-9.4.0.54424\temp\conf\es]
+2022.09.18 09:28:11 INFO  es[][o.e.p.PluginsService] loaded module [analysis-common]
+2022.09.18 09:28:11 INFO  es[][o.e.p.PluginsService] loaded module [lang-painless]
+2022.09.18 09:28:11 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2022.09.18 09:28:11 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2022.09.18 09:28:11 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2022.09.18 09:28:11 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2022.09.18 09:28:11 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[(D:)]], net usable_space [128.1gb], net total_space [492gb], types [NTFS]
+2022.09.18 09:28:11 INFO  es[][o.e.e.NodeEnvironment] heap size [512mb], compressed ordinary object pointers [true]
+2022.09.18 09:28:11 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [szFT6a38Q0qmS-SmeXN01g], cluster name [sonarqube], roles [data_frozen, master, remote_cluster_client, data, data_content, data_hot, data_warm, data_cold, ingest]
+2022.09.18 09:28:15 INFO  es[][o.e.t.NettyAllocator] creating NettyAllocator with the following configs: [name=unpooled, suggested_max_allocation_size=256kb, factors={es.unsafe.use_unpooled_allocator=null, g1gc_enabled=true, g1gc_region_size=1mb, heap_size=512mb}]
+2022.09.18 09:28:15 INFO  es[][o.e.i.r.RecoverySettings] using rate limit [40mb] with [default=40mb, read=0b, write=0b, max=0b]
+2022.09.18 09:28:16 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen] and seed hosts providers [settings]
+2022.09.18 09:28:16 INFO  es[][o.e.g.DanglingIndicesState] gateway.auto_import_dangling_indices is disabled, dangling indices will not be automatically detected or imported and must be managed manually
+2022.09.18 09:28:16 INFO  es[][o.e.n.Node] initialized
+2022.09.18 09:28:16 INFO  es[][o.e.n.Node] starting ...
+2022.09.18 09:28:17 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:49549}, bound_addresses {127.0.0.1:49549}
+2022.09.18 09:28:17 INFO  es[][o.e.c.c.Coordinator] setting initial configuration to VotingConfiguration{szFT6a38Q0qmS-SmeXN01g}
+2022.09.18 09:28:17 INFO  es[][o.e.c.s.MasterService] elected-as-master ([1] nodes joined)[{sonarqube}{szFT6a38Q0qmS-SmeXN01g}{pmVkEfEOR8eIR_BZL6gBqg}{127.0.0.1}{127.0.0.1:49549}{cdfhimrsw} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{sonarqube}{szFT6a38Q0qmS-SmeXN01g}{pmVkEfEOR8eIR_BZL6gBqg}{127.0.0.1}{127.0.0.1:49549}{cdfhimrsw}]}
+2022.09.18 09:28:18 INFO  es[][o.e.c.c.CoordinationState] cluster UUID set to [zlIvirJdRdm3FXxj26upVQ]
+2022.09.18 09:28:18 INFO  es[][o.e.c.s.ClusterApplierService] master node changed {previous [], current [{sonarqube}{szFT6a38Q0qmS-SmeXN01g}{pmVkEfEOR8eIR_BZL6gBqg}{127.0.0.1}{127.0.0.1:49549}{cdfhimrsw}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+2022.09.18 09:28:18 INFO  es[][o.e.h.AbstractHttpServerTransport] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2022.09.18 09:28:18 INFO  es[][o.e.n.Node] started
+2022.09.18 09:28:18 INFO  es[][o.e.g.GatewayService] recovered [0] indices into cluster_state
+2022.09.18 09:28:29 INFO  es[][o.e.c.m.MetadataCreateIndexService] [metadatas] creating index, cause [api], templates [], shards [1]/[0]
+2022.09.18 09:28:30 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[metadatas][0]]]).
+2022.09.18 09:28:31 INFO  es[][o.e.c.m.MetadataMappingService] [metadatas/1ukFip9MQAiEwZshC-tTIA] create_mapping [metadata]
+2022.09.18 09:28:32 INFO  es[][o.e.c.m.MetadataCreateIndexService] [components] creating index, cause [api], templates [], shards [5]/[0]
+2022.09.18 09:28:36 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[components][4]]]).
+2022.09.18 09:28:36 INFO  es[][o.e.c.m.MetadataMappingService] [components/ZY04AtqgShKQsAuY1LkpUA] create_mapping [auth]
+2022.09.18 09:28:36 INFO  es[][o.e.c.m.MetadataCreateIndexService] [projectmeasures] creating index, cause [api], templates [], shards [5]/[0]
+2022.09.18 09:28:41 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[projectmeasures][4]]]).
+2022.09.18 09:28:41 INFO  es[][o.e.c.m.MetadataMappingService] [projectmeasures/qt8V9yZpSD-gG-UbA-6VNw] create_mapping [auth]
+2022.09.18 09:28:42 INFO  es[][o.e.c.m.MetadataCreateIndexService] [rules] creating index, cause [api], templates [], shards [2]/[0]
+2022.09.18 09:28:43 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[rules][0]]]).
+2022.09.18 09:28:43 INFO  es[][o.e.c.m.MetadataMappingService] [rules/VFFe-NFiTEGfy886LRBeeg] create_mapping [rule]
+2022.09.18 09:28:44 INFO  es[][o.e.c.m.MetadataCreateIndexService] [issues] creating index, cause [api], templates [], shards [5]/[0]
+2022.09.18 09:28:48 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[issues][4]]]).
+2022.09.18 09:28:48 INFO  es[][o.e.c.m.MetadataMappingService] [issues/fiWsPLQiSEm0LdHC65YgWA] create_mapping [auth]
+2022.09.18 09:28:48 INFO  es[][o.e.c.m.MetadataCreateIndexService] [users] creating index, cause [api], templates [], shards [1]/[0]
+2022.09.18 09:28:49 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[users][0]]]).
+2022.09.18 09:28:50 INFO  es[][o.e.c.m.MetadataMappingService] [users/QVT70-L3SW2TRH0sdPDpoQ] create_mapping [user]
+2022.09.18 09:28:50 INFO  es[][o.e.c.m.MetadataCreateIndexService] [views] creating index, cause [api], templates [], shards [5]/[0]
+2022.09.18 09:28:54 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[views][4]]]).
+2022.09.18 09:28:54 INFO  es[][o.e.c.m.MetadataMappingService] [views/SNqvybTsTHmvmhXdGzsjBQ] create_mapping [view]
+2022.09.18 09:30:35 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [30s] to [-1]
+2022.09.18 09:30:35 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [30s] to [-1]
+2022.09.18 09:30:36 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [-1] to [30s]
+2022.09.18 09:30:36 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [-1] to [30s]
+2022.09.18 09:30:37 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [30s] to [-1]
+2022.09.18 09:30:37 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [30s] to [-1]
+2022.09.18 09:30:37 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [-1] to [30s]
+2022.09.18 09:30:37 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [-1] to [30s]
